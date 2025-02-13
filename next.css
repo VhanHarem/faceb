@@ -1,0 +1,37 @@
+html{
+    background-image: url(/images/letter.png);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    
+}
+
+.choices{
+    margin-top: 22rem;
+    margin-left: 6rem;
+}
+
+.button, .button2{
+    height: 3rem;
+    width: 6rem;
+    border-radius:10px; 
+    border: 0cap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button2{
+    transition: all 1s ease-in-out;
+}
+
+
+.button2:hover
+{
+    background-color: red;
+    color: red;
+    margin-left: 10rem;
+    
+}
+
+.button:hover{
+    transition: 1s;
+    background-color: cyan;
+}
